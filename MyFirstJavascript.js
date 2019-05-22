@@ -1,5 +1,10 @@
 // week 03 in class work
-function subtract(num1, num2){
-return num1 - num2;
+function add(){
+    
+    sum=0;
+    for(i=0; i<10; i++)
+    {
+        sum += i;
+    }
+    return sum;
 }
-subtract(2,3);
